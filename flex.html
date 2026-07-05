@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Layout</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column-reverse; */
+      }
+      .box {
+        border: 3px solid blue;
+        height: 100px;
+        font-size: 2rem;
+      }
+      div {
+        font-size: 2rem;
+      }
+      .user-container {
+        display: flex;
+      }
+      .user {
+        border: 3px solid red;
+        height: 100px;
+        font-size: 2rem;
+      }
+      .pic-container{
+        display: flex;
+        border: 3px solid green;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+      }
+      .picture{
+        border: 3px solid gray;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li><a href="flex.html">Flex</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="nav.html">Navigation</a></li>
+            <li><a href=""></a></li>
+            <!-- <li><a href=""></a></li> -->
+        </ul>
+    </nav>
+    <div class="pic-container">
+        <div class="pic">picture</div>
+    </div>
+    <div class="user-container">
+      <div class="user">user-1</div>
+      <div class="user">user-2</div>
+      <div class="user">user-3</div>
+      <div class="user">user-4</div>
+      <div class="user">user-5</div>
+      <div class="user">user-1</div>
+      <div class="user">user-2</div>
+      <div class="user">user-3</div>
+      <div class="user">user-4</div>
+      <div class="user">user-5</div>
+    </div>
+    <!-- div>p  -->
+    <!-- div>article>section>h2  -->
+    <!-- div>article*3>section>h2  -->
+    <!-- div>article*3>section>h2+p*2  -->
+    <!-- div>article>h2.header#first  -->
+    <!-- ul.container>li*5  -->
+    <!-- ul.container>li.item*5{item$} -->
+    <div class="container">
+      <ul>
+        <li class="item">item1</li>
+        <li class="item">item2</li>
+        <li class="item">item3</li>
+        <li class="item">item4</li>
+        <li class="item">item5</li>
+      </ul>
+    </div>
+  </body>
+</html>

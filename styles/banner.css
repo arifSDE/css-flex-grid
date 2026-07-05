@@ -1,0 +1,33 @@
+.banner{
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+}
+.banner-content{
+    flex: 1;
+    text-align: center;
+
+}
+.banner-pic-content{
+    flex: 1;
+
+}
+.banner-pic-content{
+    width: 100%;
+}
+.banner-content button{
+    background-color: brown;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-content button:hover{
+    background-color: lightblue;
+}
+form{
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
